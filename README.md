@@ -12,7 +12,11 @@ ultimate vim + seoul256 + show line number + activate mouse
 
         colorscheme seoul256
 
-4. Modify ~/.vimrc, add two lines at the end.
+4. If you prefer a smaller font size on MacOS, you can modify to this in extended.vim
+
+        set gfn=Hack:h12,Source\ Code\ Pro:h13,Menlo:h13
+
+5. Modify ~/.vimrc, add two lines at the end.
 
         set number
         set mouse=a
